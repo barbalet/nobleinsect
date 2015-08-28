@@ -1,3 +1,9 @@
+/****************************************************************
+
+draw.c
+
+ =============================================================
+
  Copyright 1996-2015 Tom Barbalet. All rights reserved.
 
  Permission is hereby granted, free of charge, to any person
@@ -25,3 +31,32 @@
  begun on 13 June 1996. No apes or cats were harmed in the writing
  of this software.
 
+ ****************************************************************/
+
+#import <OpenGL/gl.h>
+#import <OpenGL/glext.h>
+#import <OpenGL/glu.h>
+#import <OpenGL/OpenGL.h>
+
+#include "stdio.h"
+
+#include "insect.h"
+#include "shared.h"
+
+n_int draw_error(n_constant_string error_text, n_constant_string location, n_int line_number)
+{
+    printf("ERROR: %s, %s line: %ld\n", error_text, location, line_number);
+    return -1;
+}
+
+void draw_init(void)
+{
+    glClearColor(0, 0.05, 0, 0);
+    glClear(GL_COLOR_BUFFER_BIT);
+}
+
+
+void draw_cycle(void)
+{
+
+}

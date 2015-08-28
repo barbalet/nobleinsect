@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8F9B3C459E7272603904C6E12559CFCE02F3106F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F8F44F5CF0F7E4FD58C7DF1F25F319A07E944474" : 0,
+    "8F9B3C459E7272603904C6E12559CFCE02F3106F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "723BA5A1-723A-462B-A2E8-0237B32CDB2C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F8F44F5CF0F7E4FD58C7DF1F25F319A07E944474" : "nobleape\/",
+    "8F9B3C459E7272603904C6E12559CFCE02F3106F" : "nobleinsect\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Noble Insect",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Noble Insect\/Noble Insect.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/barbalet\/nobleinsect.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F9B3C459E7272603904C6E12559CFCE02F3106F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/barbalet\/nobleape.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8F44F5CF0F7E4FD58C7DF1F25F319A07E944474"
+    }
+  ]
+}

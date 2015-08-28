@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A76D2C31B903E1A00F9DAE0 /* execute.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2B81B903E1A00F9DAE0 /* execute.c */; };
+		5A76D2C41B903E1A00F9DAE0 /* math.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2B91B903E1A00F9DAE0 /* math.c */; };
+		5A76D2C51B903E1A00F9DAE0 /* land.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2BB1B903E1A00F9DAE0 /* land.c */; };
+		5A76D2C61B903E1A00F9DAE0 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2BC1B903E1A00F9DAE0 /* io.c */; };
+		5A76D2C71B903E1A00F9DAE0 /* interpret.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2BD1B903E1A00F9DAE0 /* interpret.c */; };
+		5A76D2C81B903E1A00F9DAE0 /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2BE1B903E1A00F9DAE0 /* parse.c */; };
+		5A76D2C91B903E1A00F9DAE0 /* audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2C01B903E1A00F9DAE0 /* audio.c */; };
+		5A76D2CA1B903E1A00F9DAE0 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2C11B903E1A00F9DAE0 /* compress.c */; };
+		5A76D2CB1B903E1A00F9DAE0 /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2C21B903E1A00F9DAE0 /* network.c */; };
+		5A76D2D21B903E5300F9DAE0 /* NobleMacView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2CD1B903E5300F9DAE0 /* NobleMacView.m */; };
+		5A76D2D31B903E5300F9DAE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2D01B903E5300F9DAE0 /* AppDelegate.m */; };
+		5A76D2D41B903E5300F9DAE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2D11B903E5300F9DAE0 /* main.m */; };
+		5A76D2D91B903F5400F9DAE0 /* draw.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2D71B903F5400F9DAE0 /* draw.c */; };
+		5A76D2DA1B903F5400F9DAE0 /* shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2D81B903F5400F9DAE0 /* shared.c */; };
+		5A76D2DE1B903FA700F9DAE0 /* insect.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A76D2DC1B903FA700F9DAE0 /* insect.c */; };
+		5A76D2E01B9040D800F9DAE0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A76D2DF1B9040D800F9DAE0 /* OpenGL.framework */; };
+		5A91FF2D1B903A1000FDAB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A91FF2C1B903A1000FDAB4A /* Assets.xcassets */; };
+		5A91FF301B903A1000FDAB4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A91FF2E1B903A1000FDAB4A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A76D2B81B903E1A00F9DAE0 /* execute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = execute.c; path = ../../nobleape/sim/noble/execute.c; sourceTree = "<group>"; };
+		5A76D2B91B903E1A00F9DAE0 /* math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = math.c; path = ../../nobleape/sim/noble/math.c; sourceTree = "<group>"; };
+		5A76D2BA1B903E1A00F9DAE0 /* noble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = noble.h; path = ../../nobleape/sim/noble/noble.h; sourceTree = "<group>"; };
+		5A76D2BB1B903E1A00F9DAE0 /* land.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = land.c; path = ../../nobleape/sim/noble/land.c; sourceTree = "<group>"; };
+		5A76D2BC1B903E1A00F9DAE0 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = io.c; path = ../../nobleape/sim/noble/io.c; sourceTree = "<group>"; };
+		5A76D2BD1B903E1A00F9DAE0 /* interpret.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = interpret.c; path = ../../nobleape/sim/noble/interpret.c; sourceTree = "<group>"; };
+		5A76D2BE1B903E1A00F9DAE0 /* parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse.c; path = ../../nobleape/sim/noble/parse.c; sourceTree = "<group>"; };
+		5A76D2BF1B903E1A00F9DAE0 /* shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shared.h; path = ../../nobleape/sim/noble/shared.h; sourceTree = "<group>"; };
+		5A76D2C01B903E1A00F9DAE0 /* audio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = audio.c; path = ../../nobleape/sim/noble/audio.c; sourceTree = "<group>"; };
+		5A76D2C11B903E1A00F9DAE0 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compress.c; path = ../../nobleape/sim/noble/compress.c; sourceTree = "<group>"; };
+		5A76D2C21B903E1A00F9DAE0 /* network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = network.c; path = ../../nobleape/sim/noble/network.c; sourceTree = "<group>"; };
+		5A76D2CD1B903E5300F9DAE0 /* NobleMacView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NobleMacView.m; path = ../../nobleape/sim/mac/NobleMacView.m; sourceTree = "<group>"; };
+		5A76D2CE1B903E5300F9DAE0 /* NobleMacView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NobleMacView.h; path = ../../nobleape/sim/mac/NobleMacView.h; sourceTree = "<group>"; };
+		5A76D2CF1B903E5300F9DAE0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../nobleape/sim/mac/AppDelegate.h; sourceTree = "<group>"; };
+		5A76D2D01B903E5300F9DAE0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../nobleape/sim/mac/AppDelegate.m; sourceTree = "<group>"; };
+		5A76D2D11B903E5300F9DAE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../nobleape/sim/mac/main.m; sourceTree = "<group>"; };
+		5A76D2D71B903F5400F9DAE0 /* draw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = draw.c; path = ../gui/draw.c; sourceTree = "<group>"; };
+		5A76D2D81B903F5400F9DAE0 /* shared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shared.c; path = ../gui/shared.c; sourceTree = "<group>"; };
+		5A76D2DC1B903FA700F9DAE0 /* insect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = insect.c; path = ../insect/insect.c; sourceTree = "<group>"; };
+		5A76D2DD1B903FA700F9DAE0 /* insect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = insect.h; path = ../insect/insect.h; sourceTree = "<group>"; };
+		5A76D2DF1B9040D800F9DAE0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5A91FF231B903A1000FDAB4A /* Noble Insect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noble Insect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A91FF2C1B903A1000FDAB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A91FF2F1B903A1000FDAB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5A91FF311B903A1000FDAB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A91FF201B903A1000FDAB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76D2E01B9040D800F9DAE0 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A76D2CC1B903E2200F9DAE0 /* noble */ = {
+			isa = PBXGroup;
+			children = (
+				5A76D2B81B903E1A00F9DAE0 /* execute.c */,
+				5A76D2B91B903E1A00F9DAE0 /* math.c */,
+				5A76D2BA1B903E1A00F9DAE0 /* noble.h */,
+				5A76D2BB1B903E1A00F9DAE0 /* land.c */,
+				5A76D2BC1B903E1A00F9DAE0 /* io.c */,
+				5A76D2BD1B903E1A00F9DAE0 /* interpret.c */,
+				5A76D2BE1B903E1A00F9DAE0 /* parse.c */,
+				5A76D2BF1B903E1A00F9DAE0 /* shared.h */,
+				5A76D2C01B903E1A00F9DAE0 /* audio.c */,
+				5A76D2C11B903E1A00F9DAE0 /* compress.c */,
+				5A76D2C21B903E1A00F9DAE0 /* network.c */,
+			);
+			name = noble;
+			sourceTree = "<group>";
+		};
+		5A76D2D51B903E6000F9DAE0 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				5A76D2CD1B903E5300F9DAE0 /* NobleMacView.m */,
+				5A76D2CE1B903E5300F9DAE0 /* NobleMacView.h */,
+				5A76D2CF1B903E5300F9DAE0 /* AppDelegate.h */,
+				5A76D2D01B903E5300F9DAE0 /* AppDelegate.m */,
+				5A76D2D11B903E5300F9DAE0 /* main.m */,
+			);
+			name = mac;
+			sourceTree = "<group>";
+		};
+		5A76D2D61B903F3400F9DAE0 /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				5A76D2D71B903F5400F9DAE0 /* draw.c */,
+				5A76D2D81B903F5400F9DAE0 /* shared.c */,
+			);
+			name = gui;
+			sourceTree = "<group>";
+		};
+		5A76D2DB1B903F9100F9DAE0 /* insect */ = {
+			isa = PBXGroup;
+			children = (
+				5A76D2DC1B903FA700F9DAE0 /* insect.c */,
+				5A76D2DD1B903FA700F9DAE0 /* insect.h */,
+			);
+			name = insect;
+			sourceTree = "<group>";
+		};
+		5A91FF1A1B903A1000FDAB4A = {
+			isa = PBXGroup;
+			children = (
+				5A76D2DF1B9040D800F9DAE0 /* OpenGL.framework */,
+				5A76D2DB1B903F9100F9DAE0 /* insect */,
+				5A76D2D61B903F3400F9DAE0 /* gui */,
+				5A76D2D51B903E6000F9DAE0 /* mac */,
+				5A76D2CC1B903E2200F9DAE0 /* noble */,
+				5A91FF251B903A1000FDAB4A /* Noble Insect */,
+				5A91FF241B903A1000FDAB4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A91FF241B903A1000FDAB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A91FF231B903A1000FDAB4A /* Noble Insect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A91FF251B903A1000FDAB4A /* Noble Insect */ = {
+			isa = PBXGroup;
+			children = (
+				5A91FF2C1B903A1000FDAB4A /* Assets.xcassets */,
+				5A91FF2E1B903A1000FDAB4A /* MainMenu.xib */,
+				5A91FF311B903A1000FDAB4A /* Info.plist */,
+				5A91FF291B903A1000FDAB4A /* Supporting Files */,
+			);
+			path = "Noble Insect";
+			sourceTree = "<group>";
+		};
+		5A91FF291B903A1000FDAB4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A91FF221B903A1000FDAB4A /* Noble Insect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A91FF341B903A1000FDAB4A /* Build configuration list for PBXNativeTarget "Noble Insect" */;
+			buildPhases = (
+				5A91FF1F1B903A1000FDAB4A /* Sources */,
+				5A91FF201B903A1000FDAB4A /* Frameworks */,
+				5A91FF211B903A1000FDAB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noble Insect";
+			productName = "Noble Insect";
+			productReference = 5A91FF231B903A1000FDAB4A /* Noble Insect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A91FF1B1B903A1000FDAB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tom Barbalet";
+				TargetAttributes = {
+					5A91FF221B903A1000FDAB4A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 5A91FF1E1B903A1000FDAB4A /* Build configuration list for PBXProject "Noble Insect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A91FF1A1B903A1000FDAB4A;
+			productRefGroup = 5A91FF241B903A1000FDAB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A91FF221B903A1000FDAB4A /* Noble Insect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A91FF211B903A1000FDAB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A91FF2D1B903A1000FDAB4A /* Assets.xcassets in Resources */,
+				5A91FF301B903A1000FDAB4A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A91FF1F1B903A1000FDAB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76D2D91B903F5400F9DAE0 /* draw.c in Sources */,
+				5A76D2D31B903E5300F9DAE0 /* AppDelegate.m in Sources */,
+				5A76D2CB1B903E1A00F9DAE0 /* network.c in Sources */,
+				5A76D2C91B903E1A00F9DAE0 /* audio.c in Sources */,
+				5A76D2C31B903E1A00F9DAE0 /* execute.c in Sources */,
+				5A76D2C61B903E1A00F9DAE0 /* io.c in Sources */,
+				5A76D2C71B903E1A00F9DAE0 /* interpret.c in Sources */,
+				5A76D2D21B903E5300F9DAE0 /* NobleMacView.m in Sources */,
+				5A76D2DA1B903F5400F9DAE0 /* shared.c in Sources */,
+				5A76D2C81B903E1A00F9DAE0 /* parse.c in Sources */,
+				5A76D2C51B903E1A00F9DAE0 /* land.c in Sources */,
+				5A76D2C41B903E1A00F9DAE0 /* math.c in Sources */,
+				5A76D2DE1B903FA700F9DAE0 /* insect.c in Sources */,
+				5A76D2D41B903E5300F9DAE0 /* main.m in Sources */,
+				5A76D2CA1B903E1A00F9DAE0 /* compress.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A91FF2E1B903A1000FDAB4A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A91FF2F1B903A1000FDAB4A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A91FF321B903A1000FDAB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5A91FF331B903A1000FDAB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5A91FF351B903A1000FDAB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Noble Insect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobleape.Noble-Insect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A91FF361B903A1000FDAB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Noble Insect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobleape.Noble-Insect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A91FF1E1B903A1000FDAB4A /* Build configuration list for PBXProject "Noble Insect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A91FF321B903A1000FDAB4A /* Debug */,
+				5A91FF331B903A1000FDAB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A91FF341B903A1000FDAB4A /* Build configuration list for PBXNativeTarget "Noble Insect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A91FF351B903A1000FDAB4A /* Debug */,
+				5A91FF361B903A1000FDAB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A91FF1B1B903A1000FDAB4A /* Project object */;
+}
